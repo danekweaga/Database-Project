@@ -6,7 +6,8 @@ import java.sql.*;
 import java.util.*;
 import java.util.List;
 
-public class TransactionManager extends JPanel {
+public class TransactionManager extends JPanel 
+{
     private final Connection conn;
     private final JTable table;
     
