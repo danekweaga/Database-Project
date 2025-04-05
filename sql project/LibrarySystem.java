@@ -1,9 +1,12 @@
 import javax.swing.*;
 import java.sql.*;
 
-public class LibrarySystem {
-    public static void main(String[] args) {
-        try {
+public class LibrarySystem 
+{
+    public static void main(String[] args) 
+    {
+        try 
+            {
             // Use file-based SQLite (persists between runs)
             Connection connection = DriverManager.getConnection("jdbc:sqlite:library.db");
             initializeDatabase(connection);
@@ -21,12 +24,14 @@ public class LibrarySystem {
                 frame.add(tabs);
                 frame.setVisible(true);
             });
-        } catch (Exception e) {
+        } catch (Exception e) 
+            {
             showError("Database Error", e);
         }
     }
     
-private static void initializeDatabase(Connection conn) throws SQLException {
+private static void initializeDatabase(Connection conn) throws SQLException 
+    {
         Statement st = conn.createStatement();
         
         // Books table with more fields
@@ -73,12 +78,14 @@ private static void initializeDatabase(Connection conn) throws SQLException {
         st.close();
     }
     
-    private static boolean isTableEmpty(Connection conn, String table) throws SQLException {
+    private static boolean isTableEmpty(Connection conn, String table) throws SQLException 
+    {
         ResultSet rs = conn.createStatement().executeQuery("SELECT COUNT(*) FROM " + table);
         return rs.getInt(1) == 0;
     }
     
-    public static void showError(String title, Exception e) {
+    public static void showError(String title, Exception e) 
+    {
         e.printStackTrace();
         JOptionPane.showMessageDialog(null, 
             e.getMessage(), 
