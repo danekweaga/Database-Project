@@ -6,12 +6,14 @@ import java.sql.*;
 import java.util.*;
 import java.util.List;
 
-public class BookManager extends JPanel {
+public class BookManager extends JPanel 
+{
     private final Connection conn;
     private final JTable table;
     private final JTextField searchField;
     
-    public BookManager(Connection connection) {
+    public BookManager(Connection connection) 
+    {
         this.conn = connection;
         setLayout(new BorderLayout());
         
@@ -70,7 +72,8 @@ public class BookManager extends JPanel {
         }
     }
     
-    private void addBook(ActionEvent e) {
+    private void addBook(ActionEvent e) 
+    {
         // Implementation for adding a book
         JPanel form = new JPanel(new GridLayout(0, 2));
         JTextField titleField = new JTextField();
