@@ -6,10 +6,10 @@
 
 2. **MySQL Connector Setup**
    - Normally, you would need to Download the MySQL Connector/J from the official MySQL website.
-   - But it is already in the folder
+   - But it is already in the "CS 1103 final project" folder
    - Add the connector JAR file to your project's classpath or library folder.
    - If using an IDE:
-        - **BlueJ**: Tools → Preferences → Libraries → Add JAR
+        - **BlueJ**: Tools → Preferences → Libraries → Add Tool
         - **Eclipse or IntelliJ**: Add the JAR file to your project dependencies.
           
 3. **Database Configuration** open the script files in **SQL Workbench**
