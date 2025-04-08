@@ -4,16 +4,23 @@
 
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
 
-2. **Database Configuration** open the script files in **SQL Workbench**
-   - Execute `DDL schema script.txt` to create the database structure
-   - Follow with `DML instance data script.txt` to add sample data (optional)
+2. **MySQL Connector Setup**
+   - Download the MySQL Connector/J from the official MySQL website.
+   - Add the connector JAR file to your project's classpath or library folder.
+   - If using an IDE:
+        - **BlueJ**: Tools → Preferences → Libraries → Add JAR
+        - **Eclipse or IntelliJ**: Add the JAR file to your project dependencies.
+          
+3. **Database Configuration** open the script files in **SQL Workbench**
+   - Execute `DDL schema script.txt` to create the database structure.
+   - Follow with `DML instance data script.txt` to add sample data (optional).
 
-3. **Configure Connection Settings**
+4. **Configure Connection Settings**
    - Locate the `LibraryCLI.java`
    - Find the following line of code **dbManager = new DatabaseManager("jdbc:mysql://link", "user_name", "password");**
    - Change `user_name` and `password` constants in 'dbManager' variable to match the credentials used by your MySQL setup.
 
-4. **Launch the Application**:
+5. **Launch the Application**:
    - Compile and execute `LibraryCLI.java`
    - When the program is executed,you'll be greeted with the system's main menu
 
