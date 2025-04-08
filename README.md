@@ -1,20 +1,20 @@
 # University Library Management System - CLI Setup Guide
 
-## Quick Setup Instructions
+## Getting Started
 
-1. **Install MySQL** on your system if not already installed
+1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
 
-2. **Run these SQL scripts** in order:
-   - First run `DDL schema script.txt` to create the database structure
-   - Then run `DML instance data script.txt` to add sample data (optional)
+2. **Database Configuration** open the script files in '**SQL Workbench**'
+   - Execute `DDL schema script.txt` to create the database structure
+   - Follow with `DML instance data script.txt` to add sample data (optional)
 
 3. **Update database credentials** if needed:
-   - Open `LibraryCLI.java`
-   - Find 'dbManager'
-   - Change `user_name` and `password` constants in 'dbManager' variable to the credentials used by your MySQL setup.
+   - Locate the `LibraryCLI.java`
+   - Find the followinfg line of code **dbManager = new DatabaseManager("jdbc:mysql://link", "user_name", "password");**
+   - Change `user_name` and `password` constants in 'dbManager' variable to match the credentials used by your MySQL setup.
 
-4. **Run the application**:
+4. **Launch the Application**:
    - Compile and execute `LibraryCLI.java`
-   - The main menu will appear when the program starts
+   - When the program is executed,you'll be greeted with the system's main menu
 
-That's it! The system is ready to use. The CLI interface will guide you through all available operations.
+The setup is now complete. You can navigate through the various library management functions using the command-line interface provided.
