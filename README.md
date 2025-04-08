@@ -5,7 +5,8 @@
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
 
 2. **MySQL Connector Setup**
-   - Download the MySQL Connector/J from the official MySQL website.
+   - Normally, you would need to Download the MySQL Connector/J from the official MySQL website.
+   - But it is already in the folder
    - Add the connector JAR file to your project's classpath or library folder.
    - If using an IDE:
         - **BlueJ**: Tools → Preferences → Libraries → Add JAR
