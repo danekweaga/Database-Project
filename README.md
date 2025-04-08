@@ -4,13 +4,13 @@
 
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
 
-2. **Database Configuration** open the script files in '**SQL Workbench**'
+2. **Database Configuration** open the script files in **SQL Workbench**
    - Execute `DDL schema script.txt` to create the database structure
    - Follow with `DML instance data script.txt` to add sample data (optional)
 
-3. **Update database credentials** if needed:
+3. **Configure Connection Settings**
    - Locate the `LibraryCLI.java`
-   - Find the followinfg line of code **dbManager = new DatabaseManager("jdbc:mysql://link", "user_name", "password");**
+   - Find the following line of code **dbManager = new DatabaseManager("jdbc:mysql://link", "user_name", "password");**
    - Change `user_name` and `password` constants in 'dbManager' variable to match the credentials used by your MySQL setup.
 
 4. **Launch the Application**:
