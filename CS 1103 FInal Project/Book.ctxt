@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Book
+comment1.params=bookId\ title\ author\ isbn\ publisher\ year\ category\ availability
+comment1.target=Book(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ boolean)
+comment10.params=availability
+comment10.target=void\ setAvailability(boolean)
+comment2.params=
+comment2.target=java.lang.String\ getBookId()
+comment3.params=
+comment3.target=java.lang.String\ getTitle()
+comment4.params=
+comment4.target=java.lang.String\ getAuthor()
+comment5.params=
+comment5.target=java.lang.String\ getIsbn()
+comment6.params=
+comment6.target=java.lang.String\ getPublisher()
+comment7.params=
+comment7.target=int\ getYear()
+comment8.params=
+comment8.target=java.lang.String\ getCategory()
+comment9.params=
+comment9.target=boolean\ isAvailable()
+numComments=11
