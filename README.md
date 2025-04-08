@@ -10,8 +10,8 @@
 
 3. **Update database credentials** if needed:
    - Open `LibraryCLI.java`
-   - Find 'dbManager = new DatabaseManager("jdbc:mysql://localhost:3306/university_library", "user_name", "password");'
-   - Change `user_name` and `password` constants to the credentials used by your MySQL setup.
+   - Find 'dbManager'
+   - Change `user_name` and `password` constants in 'dbManager' variable to the credentials used by your MySQL setup.
 
 4. **Run the application**:
    - Compile and execute `LibraryCLI.java`
