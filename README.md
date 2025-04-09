@@ -3,8 +3,10 @@
 ## Getting Started
 
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
+2. [Link to download MySQL]([https://github.com/yourusername/your-repo](https://dev.mysql.com/downloads/installer/
+))
 
-2. **MySQL Connector Setup**
+3. **MySQL Connector Setup**
    - Normally, you would need to Download the `MySQL Connector/J` from the official MySQL website.
    - But it is already in the `CS 1103 final project` folder
    - Add the connector JAR file to your project's classpath or library folder.
@@ -12,16 +14,16 @@
         - `BlueJ`: Tools → Preferences → Libraries → Add Tool
         - `Eclipse or IntelliJ`: Add the JAR file to your project dependencies.
           
-3. **Database Configuration** open the script files in `SQL Workbench`
+4. **Database Configuration** open the script files in `SQL Workbench`
    - Execute `DDL schema script.txt` to create the database structure.
    - Follow with `DML instance data script.txt` to add sample data (optional).
 
-4. **Configure Connection Settings**
+5. **Configure Connection Settings**
    - Locate the `LibraryCLI.java`
    - Find the following line of code `dbManager = new DatabaseManager("jdbc:mysql://link", "user_name", "password");`
    - Change `user_name` and `password` constants in 'dbManager' variable to match the credentials used by your MySQL setup.
 
-5. **Launch the Application**:
+6. **Launch the Application**:
    - Compile and execute `LibraryCLI.java`
    - When the program is executed,you'll be greeted with the system's main menu
 
