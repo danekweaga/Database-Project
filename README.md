@@ -4,7 +4,7 @@
 
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
 2. [Link to download MySQL]([https://github.com/yourusername/your-repo](https://dev.mysql.com/downloads/installer/
-))
+)
 
 3. **MySQL Connector Setup**
    - Normally, you would need to Download the `MySQL Connector/J` from the official MySQL website.
