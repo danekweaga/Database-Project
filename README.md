@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
-2.[Link to download MySQL](https://dev.mysql.com/downloads/installer/)
+[Link to download MySQL](https://dev.mysql.com/downloads/installer/)
 
 
 3. **MySQL Connector Setup**
