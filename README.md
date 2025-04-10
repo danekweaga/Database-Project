@@ -15,8 +15,8 @@
         - `Eclipse or IntelliJ`: Add the JAR file to your project dependencies.
           
 4. **Database Configuration** open the script files in `SQL Workbench`
-   - Execute `DDL schema script.txt` to create the database structure.
-   - Follow with `DML instance data script.txt` to add sample data (optional).
+   - Execute `DDL schema script.sql` to create the database structure.
+   - Follow with `DML instance data script.sql` to add sample data (optional).
 
 5. **Configure Connection Settings**
    - Locate the `LibraryCLI.java`
