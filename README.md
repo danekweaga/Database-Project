@@ -1,6 +1,6 @@
 # University Library Management System - CLI Setup Guide
 ## 🎥 Demo Video
-[![Watch Demo](https://img.shields.io/badge/▶️_Watch-Demo_Video-red?style=for-the-badge)]([YOUR_VIDEO_URL_HERE](https://unbcloud-my.sharepoint.com/personal/r65a3_unb_ca1/_layouts/15/stream.aspx?id=%2Fpersonal%2Fr65a3_unb_ca1%2FDocuments%2Fpresentation.mov&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.84f0838c-83b4-4d29-8c2b-17e4aed17052))
+[![Watch Demo](https://img.shields.io/badge/▶️_Watch-Demo_Video-red?style=for-the-badge)](https://unbcloud-my.sharepoint.com/personal/r65a3_unb_ca1/_layouts/15/stream.aspx?id=%2Fpersonal%2Fr65a3_unb_ca1%2FDocuments%2Fpresentation.mov&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.84f0838c-83b4-4d29-8c2b-17e4aed17052)
 ## Getting Started
 
 1. **Prerequisite: MySQL Database** Ensure MySQL is installed on your computer before proceeding.
